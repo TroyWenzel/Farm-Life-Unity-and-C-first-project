@@ -1,0 +1,74 @@
+# This .gitignore file should be placed at the root of your Unity project directory
+#
+# Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
+
+# =============== #
+# Unity generated #
+# =============== #
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+[Uu]ser[Ss]ettings/
+
+# Asset meta data should only be ignored when the corresponding asset is also ignored
+!/[Aa]ssets/**/*.meta
+
+# Never ignore Asset meta data
+!/[Aa]ssets/*.meta
+!/[Pp]rojectSettings/*.meta
+!/[Pp]ackages/*.meta
+
+# =============== #
+# Visual Studio   #
+# =============== #
+.vs/
+*.csproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# =============== #
+# Rider / JetBrains
+# =============== #
+.idea/
+*.unityproj
+
+# =============== #
+# OS generated files
+# =============== #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# =============== #
+# Unity Collaborate
+# =============== #
+.collabignore
+
+# =============== #
+# Unity Cloud Build
+# =============== #
+/[Uu]ser[Ss]ettings/UnityConnectSettings.asset
+
+# =============== #
+# Crashlytics
+# =============== #
+crashlytics-build.properties
+
+# =============== #
+# Addressables
+# =============== #
+/[Aa]ss
